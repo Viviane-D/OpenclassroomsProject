@@ -1,3 +1,56 @@
-h1 {
-    color: red;
+*{
+    margin: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Manrope', sans-serif;
+    background-color: #1F2039;
+}
+
+h1{
+    font: 3.5em #A5B4FC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+p, li, h2{
+    color: #F9F8FF;
+} 
+
+p{
+    font: 1.1em;
+}
+
+a {
+    color: #242424;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+em{
+    color: #A5B4FC;
+}
+
+header>a:hover, footer>a:hover{
+    text-decoration: none;
+    background: linear-gradient(#696484, #8788BA);
+}
+
+.gradient{
+    background: linear-gradient(#8E86B5, #ACAEED );
+    border-radius: 50px;
+    color: white;
+}
+
+.a-propos{
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px  solid #8e86b5;
+}
+
+.lien-icone:hover {
+    opacity: 0.5;
 }
