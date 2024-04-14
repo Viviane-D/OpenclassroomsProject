@@ -8,15 +8,24 @@ body{
     background-color: #1F2039;
 }
 
+/************* MAIN **************/
+
 h1{
     font: 3.5em #A5B4FC;
     font-family: 'Montserrat', sans-serif;
 }
 
+section{
+    padding: 80px;
+}
 
 p, li, h2{
     color: #F9F8FF;
 } 
+
+h2{
+    margin-top: 30px;
+}
 
 p{
     font: 1.1em;
@@ -35,11 +44,6 @@ em{
     color: #A5B4FC;
 }
 
-header>a:hover, footer>a:hover{
-    text-decoration: none;
-    background: linear-gradient(#696484, #8788BA);
-}
-
 .gradient{
     background: linear-gradient(#8E86B5, #ACAEED );
     border-radius: 50px;
@@ -49,7 +53,31 @@ header>a:hover, footer>a:hover{
 .a-propos{
     border-right: 1px solid #8e86b5;
     border-bottom: 1px  solid #8e86b5;
+    padding: 50px;
 }
+
+.contenu-a-propos{
+    width: 50%;
+    margin: auto;
+}
+
+.contenu-a-propos ul{
+    margin: 30px;
+}
+
+/************* HEADER **************/
+/************* FOOTER **************/
+
+header, footer{
+    background-color: white;
+    padding: 20px 50px;
+}
+
+header>a:hover, footer>a:hover{
+    text-decoration: none;
+    background: linear-gradient(#696484, #8788BA);
+}
+
 
 .lien-icone:hover {
     opacity: 0.5;
